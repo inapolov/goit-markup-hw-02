@@ -28,6 +28,9 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .contacts .link {
   color: var(--primery-text-color);
 }
@@ -36,16 +39,39 @@ body {
   color: var(--accent-color);
 }
 /*Main*/
-/*Hero*/
+/*Герой*/
 .hero {
+  background-color: #2f303a;
 }
 .hero-title {
   color: var(--primery-white-color);
-  background-color: #2f303a;
+}
+.button {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
 }
 /*section*/
 .section {
 }
 .section-title {
   color: var(--heading-text-color);
+}
+/*Преимущества*/
+.advantages .title {
+  color: var(--heading-text-color);
+}
+/*Наша команда*/
+.team-title {
+  color: var(--heading-text-color);
+}
+
+/*Footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--primery-white-color);
+}
+.footer-address .link {
+  color: var(--primery-white-color);
 }
