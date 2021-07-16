@@ -1,11 +1,51 @@
-body{
-    background-color: tomato;
+body {
+  background-color: var(--primery-white-color);
+  color: var(--primery-text-color);
 }
 
-:root{
-    --primery-text-color: #757575;
-    --heading-text-color: #212121;
-    --accent-color: #2196F3;
-    --primery-white-color: #FFFFFF;
-    
+:root {
+  --primery-text-color: #757575;
+  --heading-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-white-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/*Шапка*/
+.logo {
+  color: #000000;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--heading-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--primery-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/*Main*/
+/*Hero*/
+.hero {
+}
+.hero-title {
+  color: var(--primery-white-color);
+  background-color: #2f303a;
+}
+/*section*/
+.section {
+}
+.section-title {
+  color: var(--heading-text-color);
 }
