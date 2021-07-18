@@ -139,3 +139,43 @@ body {
   line-height: 1.71;
   text-decoration: none;
 }
+.footer-address .contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+/*Portfolio*/
+.filter .button {
+  color: var(--heading-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
+}
+
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio .title {
+  color: var(--heading-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio .link {
+  text-decoration: none;
+}
+.portfolio .text {
+  color: var(--primery-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
