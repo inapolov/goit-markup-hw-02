@@ -16,6 +16,11 @@ body {
   list-style: none;
 }
 
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /*Шапка*/
 .logo {
   color: #000000;
