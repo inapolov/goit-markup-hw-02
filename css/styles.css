@@ -129,25 +129,41 @@ body {
 .ourteam {
   background-color: #f5f4fa;
 }
+.team {
+  text-align: center;
+}
+.team .image {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
 .team-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--heading-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 .team .text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 
 /*Footer*/
 .footer {
   background-color: #2f303a;
 }
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-logo {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
   color: var(--primery-white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -156,6 +172,9 @@ body {
   text-decoration: none;
 }
 .footer-address .link {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 9px;
   color: var(--primery-white-color);
   font-style: normal;
   font-weight: 400;
@@ -164,6 +183,9 @@ body {
   text-decoration: none;
 }
 .footer-address .contacts-link {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
